@@ -49,11 +49,6 @@
     <Compile Include="My_VSIX_Project1Package.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\MyItemTemplate1\bin\Debug\ItemTemplates\CSharp\1033\MyItemTemplate1.zip">
-      <Link>ItemTemplates\Softline\MyItemTemplate1.zip</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
